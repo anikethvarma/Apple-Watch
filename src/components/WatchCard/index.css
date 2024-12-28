@@ -1,0 +1,31 @@
+
+.watch-card{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.watch-card-image-div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.watch-card-band{
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    
+}
+
+.watch-card-case{
+    height: 110%;
+    z-index: 2;
+    position: absolute;
+    bottom: -10px;
+}
+

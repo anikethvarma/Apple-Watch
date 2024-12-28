@@ -1,0 +1,53 @@
+/*.slider{
+    display: flex;
+    max-width: 100vw;
+    overflow-x: auto;
+    align-items: flex-start;
+    display: flex;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    padding-left: 50vw;
+    padding-right: 50vw;    
+    
+}*/
+.bands-bg{
+    max-width: 100vw;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bands-slider{
+    width: 90vw;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.bands-watch-case{
+    z-index: 1;
+    position: absolute;
+    width: 33%;
+    align-self: center;
+}
+
+/*.slide{
+    min-width: 20vw;
+    padding: 0;
+    transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  scroll-snap-align: center;
+}*/
+
+.slide{
+    outline: 0;
+}
+
+.img{
+    width: 100%;
+}
+
